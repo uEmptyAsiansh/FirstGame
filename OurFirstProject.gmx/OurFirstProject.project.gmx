@@ -10,17 +10,28 @@
     <sprite>sprites\Spr_floor_grass</sprite>
     <sprite>sprites\spr_bullet</sprite>
     <sprite>sprites\sp_checkpoint</sprite>
+    <sprite>sprites\spr_arrow</sprite>
   </sprites>
   <backgrounds name="background"/>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\path0</path>
+  </paths>
+  <scripts name="scripts">
+    <script>scripts\scr_menu.gml</script>
+  </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt_menu</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj__player</object>
     <object>objects\obj_floor_grass</object>
     <object>objects\onj_bullet</object>
     <object>objects\obj_checkpoint</object>
+    <object>objects\obj_menu</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_main</room>
+    <room>rooms\room2</room>
+    <room>rooms\room1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
