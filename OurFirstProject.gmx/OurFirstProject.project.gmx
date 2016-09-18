@@ -10,7 +10,11 @@
     <sprite>sprites\Spr_floor_grass</sprite>
     <sprite>sprites\spr_bullet</sprite>
     <sprite>sprites\sp_checkpoint</sprite>
+<<<<<<< HEAD
     <sprite>sprites\spr_arrow</sprite>
+=======
+    <sprite>sprites\spr_tiger</sprite>
+>>>>>>> origin/master
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths">
@@ -23,11 +27,15 @@
     <font>fonts\fnt_menu</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj__player</object>
+    <object>objects\obj_player</object>
     <object>objects\obj_floor_grass</object>
     <object>objects\onj_bullet</object>
     <object>objects\obj_checkpoint</object>
+<<<<<<< HEAD
     <object>objects\obj_menu</object>
+=======
+    <object>objects\obj_tiger</object>
+>>>>>>> origin/master
   </objects>
   <rooms name="rooms">
     <room>rooms\room2</room>
