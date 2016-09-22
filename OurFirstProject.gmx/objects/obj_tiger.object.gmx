@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>///initialize variables
-
+//grav is gravity, dir is for direction changes, hsp is horizontal speed vsp is vertical sp
 dir = -1; //direction -1 means left 1 means right
 movespeed = 2;
 grav = 0.2;
@@ -55,7 +55,7 @@ vsp = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
+            <string>///collisions
 hsp = dir * movespeed;
 vsp += grav;
 
@@ -93,11 +93,12 @@ if (place_meeting(x,y,obj_player))
             with (obj_player) vsp = -jumpspeed;
             instance_destroy();
         }
-    if (obj_player.x &lt;x-8)
-        {
-            with (obj_player) hsp = -jumpspeed;
-            instance_destroy();
-        }
+//Why where there a horizontal kill collision?
+  //  if (obj_player.x &lt;x-8)
+    //    {
+      //      with (obj_player) hsp = -jumpspeed;
+      //      instance_destroy();
+    //    }
         else
         {
             game_restart();

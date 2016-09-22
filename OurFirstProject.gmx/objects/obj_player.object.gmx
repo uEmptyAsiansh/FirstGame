@@ -26,14 +26,18 @@
           <argument>
             <kind>1</kind>
             <string>///initialize variables
+///initialize variables
+//grav is gravity, dir is for direction changes, hsp is horizontal speed vsp is vertical sp
 grav = 0.4; //represent gravity
 hsp = 0; //current horizontal speed
 vsp = 0; //current vertical speed
 movespeed = 3;
 
+//jumpspeed options
 jumpspeed_normal = 7;
 jumpspeed_powerup= 10;
 
+//setting initial jumpspeed to be normal
 jumpspeed = jumpspeed_normal;
 </string>
           </argument>
@@ -57,7 +61,9 @@ jumpspeed = jumpspeed_normal;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>jumpspeed = jumpspeed_normal;
+            <string>///power up alarm 
+//return to normal
+jumpspeed = jumpspeed_normal;
 sprite_index = spr_player;
 
 </string>
@@ -82,15 +88,18 @@ sprite_index = spr_player;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-///get the player's input/collisions
+            <string>///get the player's input/collisions
+//check if player is pressing right and left and move in that direction
 key_right = keyboard_check (vk_right); 
 key_left = -keyboard_check (vk_left);
 key_jump = keyboard_check_pressed (vk_space); //only if you pressed the key
 
 //react to inputs
+//make horizontal move 1 or -1
 move = key_left + key_right;
 hsp = move * movespeed;
+
+//turn vertical movement have gravity
 if (vsp &lt; 10) vsp += grav;
 
 if (place_meeting(x,y+1,obj_floor_grass))
@@ -110,7 +119,7 @@ if (place_meeting (x+hsp,y,obj_floor_grass))
 }
 x += hsp;
 
-y += vsp;
+
 
 //vertical Collsion
 if (place_meeting (x,y+vsp,obj_floor_grass))
@@ -122,7 +131,7 @@ if (place_meeting (x,y+vsp,obj_floor_grass))
     vsp = 0;
 
 }
-
+y += vsp;
 </string>
           </argument>
         </arguments>

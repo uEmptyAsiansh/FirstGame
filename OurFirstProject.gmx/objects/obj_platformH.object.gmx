@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>sprite_index=-1;
+            <string>///doesn't work right now
+sprite_index=-1;
 ///initialize variables
 
 dir=-1;
@@ -58,9 +59,9 @@ fearofheights = 0;
 hsp=dir*movespeed;
 
 //horizontal collision
-if(place_meeting(x+hsp,y,obj_wall))
+if(place_meeting(x+hsp,y,obj_floor_grass))
 {
-    while(!place_meeting(x+sign(hsp),y,obj_wall))
+    while(!place_meeting(x+sign(hsp),y,obj_floor_grass))
     {
         x+=sign(hsp)
     }

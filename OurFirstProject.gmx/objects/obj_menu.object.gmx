@@ -25,14 +25,17 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>menu [0]="Start";
-menu[1]="Continue";
-menu[2]="Level Select";
-menu[3]="Option";
-menu[4]="Exit";
+            <string>///Set up array and variables
+menu [0]= "Start";
+menu [1]= "Continue";
+menu [2]= "Level Select";
+menu [3]= "Option";
+menu [4]= "Exit";
 
-space=64;
-mpos=0;
+//space is the pixal distance  we will use when we divide lines
+space =64;
+//mpos= menu position this is the value to move through the array
+mpos =0;
 
 </string>
           </argument>
@@ -56,18 +59,25 @@ mpos=0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var move=0;
+            <string>///moving through the menu
+//local variable to modify mpos
+var move =0;
+
+//check if moving up or moving down with several diffrent keys, values -1,0,1
 move -=max(keyboard_check_pressed(vk_up),keyboard_check_pressed(ord("W")),0);
 move +=max(keyboard_check_pressed(vk_down),keyboard_check_pressed(ord("S")),0);
 
+//check if move equals 0 if not adjust it by adding move
 if(move !=0)
 {
     mpos +=move;
+    //wrap around when over or under array's limits
     if(mpos&lt;0) mpos=array_length_1d(menu) -1;
     if(mpos &gt; array_length_1d(menu) -1) mpos=0;
 }
-
+//set local variable push
 var push;
+//push becomes 1 if button press and then execute scr_menu with current mpos
 push = max(keyboard_check_released(vk_enter),keyboard_check_released(vk_shift),keyboard_check_released(vk_space),0);
 if (push==1) scr_menu();
 
@@ -94,19 +104,22 @@ if (push==1) scr_menu();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
+            <string>//draw the list of array strings
+//alligned left of screen on the middle in hieght with menu font colored white
 {
 draw_set_halign(fa_left);
 draw_set_valign(fa_middle);
 draw_set_font(fnt_menu);
 draw_set_color(c_white);
 
+//set variable for m
+//step through m and draw stings from array with space margins and space line breaks
 var m;
 for (m=0; m &lt; array_length_1d(menu);m+=1)
 {
 draw_text(x+ space, y+(m*space),string(menu[m]))
 }
-
+//draw arrow at x= 16 and y=mpause*space
 draw_sprite(sprite_index,0,x+16,y+mpos*space);
 }
 </string>

@@ -349,8 +349,8 @@
   </datafiles>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\sound0_sfx_player_bunny_jump</sound>
-    <sound>sound\sound1_sfx_player_move</sound>
+    <sound>sound\sfx_player_bunny_jump</sound>
+    <sound>sound\sfx_player_move</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sp_checkpoint</sprite>
@@ -364,9 +364,7 @@
     <sprite>sprites\spr_portal</sprite>
   </sprites>
   <backgrounds name="background"/>
-  <paths name="paths">
-    <path>paths\path0</path>
-  </paths>
+  <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_menu.gml</script>
     <script>scripts\scr_death.gml</script>

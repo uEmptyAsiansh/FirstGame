@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>pause = 0;
+            <string>///set pause variable
+pause = 0;
 
 </string>
           </argument>
@@ -49,17 +50,18 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (pause)
+            <string>///draw game paused when paused
+if (pause)
 {
-draw_set_color(c_black);
-draw_set_alpha(0.5);
-draw_rectangle(0,0,room_width,room_height,0);
-draw_set_halign(fa_center);
-draw_set_font(fnt_menu);
-draw_set_color(c_white)
-draw_set_alpha(1);
-draw_text(view_xview+view_wview/2,view_yview+view_hview/2,"Game Paused");
-draw_set_color(c_black);
+    draw_set_color (c_black);
+    draw_set_alpha  (0.5);
+    draw_rectangle  (0,0,room_width,room_height,0);
+    draw_set_halign  (fa_center);
+    draw_set_font  (fnt_menu);
+    draw_set_color  (c_white)
+    draw_set_alpha  (1);
+    draw_text  (view_xview+view_wview/2,view_yview+view_hview/2,"Game Paused");
+    draw_set_color  (c_black);
 }
 </string>
           </argument>
@@ -83,17 +85,19 @@ draw_set_color(c_black);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (!pause)
+            <string>///activate pause
+//if ause doesn't equal
+if (!pause)
 {
-pause=1;
-instance_deactivate_all(true);
-//can make pause menu instance here
+    pause=1;
+    instance_deactivate_all(true);
+    //can make pause menu instance here
 }
 else
 {
-pause=0;
-instance_activate_all();
-//delete pause menue objects here
+    pause=0;
+    instance_activate_all();
+    //delete pause menue objects here
 }
 
 </string>
