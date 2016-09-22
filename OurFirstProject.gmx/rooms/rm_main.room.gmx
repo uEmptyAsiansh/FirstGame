@@ -95,6 +95,7 @@
     <instance objName="obj_floor_grass" x="1248" y="736" name="inst_2F84C620" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tiger" x="320" y="672" name="inst_5D828EA8" locked="0" code="" scaleX="2.5" scaleY="2.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_tiger" x="512" y="672" name="inst_A471BBF7" locked="0" code="" scaleX="2.5" scaleY="2.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_camera" x="32" y="32" name="inst_F554CBD6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
