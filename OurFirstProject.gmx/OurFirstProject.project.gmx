@@ -3,18 +3,342 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
+  <datafiles number="19" name="datafiles">
+    <datafiles number="19" name="images">
+      <datafile>
+        <name>spr_arrow_0.png</name>
+        <exists>-1</exists>
+        <size>195</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>spr_arrow_0.png</filename>
+      </datafile>
+      <datafile>
+        <name>spr_bullet_0.png</name>
+        <exists>-1</exists>
+        <size>83</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>spr_bullet_0.png</filename>
+      </datafile>
+      <datafile>
+        <name>Spr_floor_grass_0.png</name>
+        <exists>-1</exists>
+        <size>1130</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Spr_floor_grass_0.png</filename>
+      </datafile>
+      <datafile>
+        <name>Spr_player_0.png</name>
+        <exists>-1</exists>
+        <size>237</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Spr_player_0.png</filename>
+      </datafile>
+      <datafile>
+        <name>spr_tiger_0.png</name>
+        <exists>-1</exists>
+        <size>492</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>spr_tiger_0.png</filename>
+      </datafile>
+      <datafile>
+        <name>spr_tiger_1.png</name>
+        <exists>-1</exists>
+        <size>1084</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>spr_tiger_1.png</filename>
+      </datafile>
+      <datafile>
+        <name>spr_tiger_10.png</name>
+        <exists>-1</exists>
+        <size>1134</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>spr_tiger_10.png</filename>
+      </datafile>
+      <datafile>
+        <name>spr_tiger_11.png</name>
+        <exists>-1</exists>
+        <size>1113</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>spr_tiger_11.png</filename>
+      </datafile>
+      <datafile>
+        <name>spr_tiger_2.png</name>
+        <exists>-1</exists>
+        <size>1135</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>spr_tiger_2.png</filename>
+      </datafile>
+      <datafile>
+        <name>spr_tiger_3.png</name>
+        <exists>-1</exists>
+        <size>1255</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>spr_tiger_3.png</filename>
+      </datafile>
+      <datafile>
+        <name>spr_tiger_4.png</name>
+        <exists>-1</exists>
+        <size>1149</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>spr_tiger_4.png</filename>
+      </datafile>
+      <datafile>
+        <name>spr_tiger_5.png</name>
+        <exists>-1</exists>
+        <size>1155</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>spr_tiger_5.png</filename>
+      </datafile>
+      <datafile>
+        <name>spr_tiger_6.png</name>
+        <exists>-1</exists>
+        <size>1220</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>spr_tiger_6.png</filename>
+      </datafile>
+      <datafile>
+        <name>spr_tiger_7.png</name>
+        <exists>-1</exists>
+        <size>1108</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>spr_tiger_7.png</filename>
+      </datafile>
+      <datafile>
+        <name>spr_tiger_8.png</name>
+        <exists>-1</exists>
+        <size>1150</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>spr_tiger_8.png</filename>
+      </datafile>
+      <datafile>
+        <name>spr_tiger_9.png</name>
+        <exists>-1</exists>
+        <size>1288</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>spr_tiger_9.png</filename>
+      </datafile>
+      <datafile>
+        <name>sp_checkpoint_0.png</name>
+        <exists>-1</exists>
+        <size>106</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>sp_checkpoint_0.png</filename>
+      </datafile>
+      <datafile>
+        <name>Thumbs.db</name>
+        <exists>-1</exists>
+        <size>26112</size>
+        <exportAction>2</exportAction>
+        <exportDir></exportDir>
+        <overwrite>0</overwrite>
+        <freeData>-1</freeData>
+        <removeEnd>0</removeEnd>
+        <store>0</store>
+        <ConfigOptions>
+          <Config name="Default">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+        </ConfigOptions>
+        <filename>Thumbs.db</filename>
+      </datafile>
+    </datafiles>
+    <datafile>
+      <name>fnt_menu.png</name>
+      <exists>-1</exists>
+      <size>24427</size>
+      <exportAction>2</exportAction>
+      <exportDir></exportDir>
+      <overwrite>0</overwrite>
+      <freeData>-1</freeData>
+      <removeEnd>0</removeEnd>
+      <store>0</store>
+      <ConfigOptions>
+        <Config name="Default">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+      </ConfigOptions>
+      <filename>fnt_menu.png</filename>
+    </datafile>
+  </datafiles>
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\Spr_player</sprite>
-    <sprite>sprites\Spr_floor_grass</sprite>
-    <sprite>sprites\spr_bullet</sprite>
     <sprite>sprites\sp_checkpoint</sprite>
-<<<<<<< HEAD
     <sprite>sprites\spr_arrow</sprite>
-=======
+    <sprite>sprites\spr_bullet</sprite>
+    <sprite>sprites\Spr_floor_grass</sprite>
+    <sprite>sprites\Spr_player</sprite>
     <sprite>sprites\spr_tiger</sprite>
->>>>>>> origin/master
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths">
@@ -27,19 +351,17 @@
     <font>fonts\fnt_menu</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_player</object>
-    <object>objects\obj_floor_grass</object>
-    <object>objects\onj_bullet</object>
     <object>objects\obj_checkpoint</object>
-<<<<<<< HEAD
+    <object>objects\obj_floor_grass</object>
     <object>objects\obj_menu</object>
-=======
+    <object>objects\obj_player</object>
     <object>objects\obj_tiger</object>
->>>>>>> origin/master
+    <object>objects\onj_bullet</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room2</room>
     <room>rooms\room1</room>
+    <room>rooms\rm_main</room>
+    <room>rooms\room2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
