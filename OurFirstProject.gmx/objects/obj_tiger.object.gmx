@@ -94,11 +94,6 @@ if (place_meeting(x,y,obj_player))
             instance_destroy();
         }
 //Why where there a horizontal kill collision?
-  //  if (obj_player.x &lt;x-8)
-    //    {
-      //      with (obj_player) hsp = -jumpspeed;
-      //      instance_destroy();
-    //    }
         else
         {
             game_restart();
