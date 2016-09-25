@@ -356,6 +356,7 @@
     <sprite>sprites\sp_checkpoint</sprite>
     <sprite>sprites\spr_arrow</sprite>
     <sprite>sprites\spr_bullet</sprite>
+    <sprite>sprites\spr_ball</sprite>
     <sprite>sprites\Spr_floor_grass</sprite>
     <sprite>sprites\Spr_player</sprite>
     <sprite>sprites\spr_tiger</sprite>
@@ -385,6 +386,8 @@
     <object>objects\obj_pause</object>
     <object>objects\obj_platform</object>
     <object>objects\obj_camera</object>
+    <object>objects\obj_control</object>
+    <object>objects\obj_pathfinder</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>
