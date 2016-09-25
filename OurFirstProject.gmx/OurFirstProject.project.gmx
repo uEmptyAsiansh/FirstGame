@@ -369,6 +369,7 @@
   <scripts name="scripts">
     <script>scripts\scr_menu.gml</script>
     <script>scripts\scr_death.gml</script>
+    <script>scripts\scr_Define_Path.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_menu</font>
