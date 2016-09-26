@@ -39,6 +39,11 @@ jumpspeed_powerup= 10;
 
 //setting initial jumpspeed to be normal
 jumpspeed = jumpspeed_normal;
+hp = 100;
+if (hp&lt; 0)
+{
+game_restart();
+}
 </string>
           </argument>
         </arguments>

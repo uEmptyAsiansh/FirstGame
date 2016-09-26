@@ -353,16 +353,22 @@
     <sound>sound\sfx_player_move</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\sp_checkpoint</sprite>
-    <sprite>sprites\spr_arrow</sprite>
-    <sprite>sprites\spr_bullet</sprite>
-    <sprite>sprites\spr_ball</sprite>
-    <sprite>sprites\Spr_floor_grass</sprite>
-    <sprite>sprites\Spr_player</sprite>
-    <sprite>sprites\spr_tiger</sprite>
-    <sprite>sprites\spr_platform</sprite>
-    <sprite>sprites\spr_platformH</sprite>
-    <sprite>sprites\spr_portal</sprite>
+    <sprites name="Predone">
+      <sprite>sprites\spr_platform</sprite>
+      <sprite>sprites\Spr_floor_grass</sprite>
+      <sprite>sprites\spr_arrow</sprite>
+      <sprite>sprites\spr_ball</sprite>
+      <sprite>sprites\sp_checkpoint</sprite>
+      <sprite>sprites\spr_bullet</sprite>
+      <sprite>sprites\spr_platformH</sprite>
+      <sprite>sprites\spr_tiger</sprite>
+      <sprite>sprites\Spr_player</sprite>
+      <sprite>sprites\spr_portal</sprite>
+    </sprites>
+    <sprites name="Ui">
+      <sprite>sprites\spr_ui_boarder</sprite>
+      <sprite>sprites\spr_bar</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_avg</background>
@@ -380,17 +386,20 @@
     <object>objects\obj_platformH</object>
     <object>objects\obj_checkpoint</object>
     <object>objects\obj_floor_grass</object>
-    <object>objects\obj_menu</object>
     <object>objects\obj_slide</object>
     <object>objects\obj_portal</object>
     <object>objects\obj_player</object>
     <object>objects\obj_tiger</object>
     <object>objects\onj_bullet</object>
-    <object>objects\obj_pause</object>
     <object>objects\obj_platform</object>
-    <object>objects\obj_camera</object>
     <object>objects\obj_control</object>
     <object>objects\obj_pathfinder</object>
+    <objects name="UI">
+      <object>objects\obj_healthbar</object>
+      <object>objects\obj_menu</object>
+      <object>objects\obj_camera</object>
+      <object>objects\obj_pause</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>

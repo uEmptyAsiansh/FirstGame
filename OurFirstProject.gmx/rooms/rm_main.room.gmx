@@ -123,6 +123,7 @@
     <instance objName="obj_floor_grass" x="768" y="672" name="inst_92F0C3E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor_grass" x="800" y="640" name="inst_A6E074C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor_grass" x="736" y="704" name="inst_735F4178" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_healthbar" x="0" y="352" name="inst_D69069DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
