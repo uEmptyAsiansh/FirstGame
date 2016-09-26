@@ -364,7 +364,9 @@
     <sprite>sprites\spr_platformH</sprite>
     <sprite>sprites\spr_portal</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_avg</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_menu.gml</script>
