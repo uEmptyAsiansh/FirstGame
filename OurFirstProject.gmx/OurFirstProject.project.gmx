@@ -355,14 +355,14 @@
   <sprites name="sprites">
     <sprites name="Predone">
       <sprite>sprites\spr_platform</sprite>
-      <sprite>sprites\Spr_floor_grass</sprite>
+      <sprite>sprites\spr_floor_grass</sprite>
       <sprite>sprites\spr_arrow</sprite>
       <sprite>sprites\spr_ball</sprite>
       <sprite>sprites\sp_checkpoint</sprite>
       <sprite>sprites\spr_bullet</sprite>
       <sprite>sprites\spr_platformH</sprite>
       <sprite>sprites\spr_tiger</sprite>
-      <sprite>sprites\Spr_player</sprite>
+      <sprite>sprites\spr_player</sprite>
       <sprite>sprites\spr_portal</sprite>
     </sprites>
     <sprites name="Ui">
