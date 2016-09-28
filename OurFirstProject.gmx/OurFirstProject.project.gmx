@@ -349,8 +349,8 @@
   </datafiles>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\sfx_player_bunny_jump</sound>
     <sound>sound\sfx_player_move</sound>
+    <sound>sound\sfx_player_jump</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Predone">
@@ -383,22 +383,26 @@
     <font>fonts\fnt_menu</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_platformH</object>
-    <object>objects\obj_checkpoint</object>
-    <object>objects\obj_floor_grass</object>
-    <object>objects\obj_slide</object>
-    <object>objects\obj_portal</object>
     <object>objects\obj_player</object>
-    <object>objects\obj_tiger</object>
     <object>objects\onj_bullet</object>
-    <object>objects\obj_platform</object>
     <object>objects\obj_control</object>
-    <object>objects\obj_pathfinder</object>
     <objects name="UI">
       <object>objects\obj_healthbar</object>
       <object>objects\obj_menu</object>
       <object>objects\obj_camera</object>
       <object>objects\obj_pause</object>
+    </objects>
+    <objects name="enemy">
+      <object>objects\obj_pathfinder</object>
+      <object>objects\obj_tiger</object>
+    </objects>
+    <objects name="Stage">
+      <object>objects\obj_floor_grass</object>
+      <object>objects\obj_platformH</object>
+      <object>objects\obj_slide</object>
+      <object>objects\obj_platform</object>
+      <object>objects\obj_checkpoint</object>
+      <object>objects\obj_portal</object>
     </objects>
   </objects>
   <rooms name="rooms">
