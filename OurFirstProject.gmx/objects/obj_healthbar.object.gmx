@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="8" enumb="0">
+    <event eventtype="8" enumb="64">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -26,8 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>///draw bar and scale with HP
-draw_sprite_ext(spr_bar,1,view_xview+45,view_yview+32,obj_player.hp/100,1,0,c_white,1);
-draw_sprite(spr_ui_boarder,1,view_xview+15,view_yview+15);
+draw_sprite_ext(spr_bar,1,45,32,obj_player.hp/100,1,0,c_white,1);
+draw_sprite(spr_ui_boarder,1,15,15);
 </string>
           </argument>
         </arguments>

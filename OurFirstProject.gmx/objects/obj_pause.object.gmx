@@ -33,7 +33,7 @@ pause = 0;
         </arguments>
       </action>
     </event>
-    <event eventtype="8" enumb="0">
+    <event eventtype="8" enumb="64">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -60,7 +60,7 @@ if (pause)
     draw_set_font  (fnt_menu);
     draw_set_color  (c_white)
     draw_set_alpha  (1);
-    draw_text  (view_xview+view_wview/2,view_yview+view_hview/2,"Game Paused");
+    draw_text  (500,100,"Game Paused");
     draw_set_color  (c_black);
 }
 </string>
