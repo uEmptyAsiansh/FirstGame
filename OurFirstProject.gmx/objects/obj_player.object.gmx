@@ -109,6 +109,18 @@ key_jump = keyboard_check_pressed (vk_up); //only if you pressed the key
 move = key_left + key_right;
 hsp = move * movespeed;
 
+if(hsp!=0)
+{
+    
+     sprite_index= v1Bun_running;
+     draw_xscale= sign(hsp);
+   
+}
+else
+{
+sprite_index = v1Bun_idle;
+}
+
 //turn vertical movement, have gravity, stretch
 if (vsp &lt; 10) vsp += grav;
 
@@ -122,6 +134,8 @@ if (keyboard_check_pressed(vk_up))
     draw_yscale=1.65;
     draw_xscale=.75;
 }
+
+
 //erase scale 
 draw_xscale=lerp(draw_xscale, 1, .05);
 draw_yscale=lerp(draw_yscale,1,.05);
@@ -132,6 +146,7 @@ if (place_meeting (x+hsp,y,obj_floor_grass))
     while(!place_meeting(x+sign(hsp),y,obj_floor_grass))  //sign return 1 or -1
     {
         x += sign(hsp);
+        
     }
     hsp = 0;
 
@@ -158,6 +173,18 @@ if (place_meeting(x, y+1, obj_floor_grass) &amp;&amp; !place_meeting(x,yprevious
     draw_yscale=.75;
     draw_xscale=1.45;
 }
+
+
+
+if (vsp &lt; 0)
+{
+    sprite_index = v1Bun_jumping;
+}
+else if (vsp &gt; 2)
+{
+    sprite_index = v1Bun_falling;
+}
+
 </string>
           </argument>
         </arguments>
@@ -204,7 +231,7 @@ if (place_meeting(x, y+1, obj_floor_grass) &amp;&amp; !place_meeting(x,yprevious
           <argument>
             <kind>1</kind>
             <string>///Stretch and squash drawing
-draw_sprite_ext(v1Bun_idle,image_index,x,y,draw_xscale,draw_yscale,image_angle,image_blend,image_alpha);
+draw_sprite_ext(sprite_index,image_index,x,y,draw_xscale,draw_yscale,image_angle,image_blend,image_alpha);
 </string>
           </argument>
         </arguments>
