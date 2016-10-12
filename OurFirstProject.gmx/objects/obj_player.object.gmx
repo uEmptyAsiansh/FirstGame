@@ -109,12 +109,16 @@ key_jump = keyboard_check_pressed (vk_up); //only if you pressed the key
 move = key_left + key_right;
 hsp = move * movespeed;
 
-if(hsp!=0)
+if(hsp &gt; 0)
 {
     
-     sprite_index= v1Bun_running;
-     draw_xscale= sign(hsp);
+     sprite_index= v1Bun_running_right;
+     
    
+}
+else if  ( hsp &lt; 0)
+{
+    sprite_index = v1Bun_running_left;
 }
 else
 {

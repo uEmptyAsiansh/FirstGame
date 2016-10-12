@@ -365,7 +365,8 @@
       <sprite>sprites\spr_player</sprite>
       <sprite>sprites\spr_portal</sprite>
       <sprite>sprites\v1bullet</sprite>
-      <sprite>sprites\v1Bun_running</sprite>
+      <sprite>sprites\v1Bun_running_right</sprite>
+      <sprite>sprites\v1Bun_running_left</sprite>
       <sprite>sprites\v1Bun_falling</sprite>
       <sprite>sprites\v1Bun_idle</sprite>
       <sprite>sprites\v1Bun_jumping</sprite>
